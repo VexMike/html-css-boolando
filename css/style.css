@@ -5,14 +5,9 @@
     box-sizing: border-box;
 }
 
-.container {
+.page-main {
     max-width: 1000px;
     margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 ul,
@@ -26,12 +21,31 @@ img {
 }
 
 /* MAIN */
+/* TITLE */
 
 .section-title {
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
-.container-title {
+.row-title {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-subsection-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-subsection-title .row-subsection-title {
+    justify-content: center;
+}
+
+/* CARDS */
+
+.row-cards {
+    display: flex;
+    flex-wrap: wrap;
 }
