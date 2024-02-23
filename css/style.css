@@ -39,9 +39,23 @@ img {
     justify-content: center;
 }
 
+.roboto-regular-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-regular-subsection {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* CARDS */
 
 .row-cards {
     display: flex;
     flex-wrap: wrap;
 }
+
+
