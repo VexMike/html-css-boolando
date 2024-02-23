@@ -22,6 +22,34 @@ img {
     max-width: 100%;
 }
 
+/* HEADER */
+
+.page-header {
+    background-color: #FF6900;
+    color: white;
+}
+
+.page-header .row-header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+}
+
+.categories-section {
+    display: flex;
+}
+
+.category {
+    line-height: 80px;
+    padding: 0px 5px;
+}
+
+.logo img {
+    height: 35px;
+    display: block;
+}
+
 /* MAIN */
 /* TITLE */
 
