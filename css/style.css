@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
 
 .page-main {
@@ -24,7 +26,7 @@ img {
 /* TITLE */
 
 .section-title {
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 .row-title {
@@ -39,16 +41,12 @@ img {
     justify-content: center;
 }
 
-.roboto-regular-title {
-    font-family: "Roboto", sans-serif;
+.title {
     font-weight: 900;
-    font-style: normal;
 }
 
-.roboto-regular-subsection {
-    font-family: "Roboto", sans-serif;
+.subsection {
     font-weight: 600;
-    font-style: normal;
 }
 
 /* CARDS */
@@ -58,4 +56,24 @@ img {
     flex-wrap: wrap;
 }
 
+.col-33 {
+    width: calc(4 * 100% / 12);
+}
 
+.card {
+    padding: 20px 10px;
+}    
+
+.card-description {
+    border: 1px solid #E9E9E9;
+    margin-top: -4px;
+    padding: 10px;
+}    
+
+.card-price {
+    color: red;
+}
+
+.old-price {
+    text-decoration-line: line-through;
+}
