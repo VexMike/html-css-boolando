@@ -22,6 +22,7 @@ img {
     max-width: 100%;
 }
 
+
 /* HEADER */
 
 .page-header {
@@ -31,6 +32,7 @@ img {
 
 .page-header .row-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 80px;
     align-items: center;
@@ -50,7 +52,9 @@ img {
     display: block;
 }
 
+
 /* MAIN */
+
 /* TITLE */
 
 .section-title {
@@ -76,6 +80,7 @@ img {
 .subsection {
     font-weight: 600;
 }
+
 
 /* CARDS */
 
@@ -104,4 +109,33 @@ img {
 
 .old-price {
     text-decoration-line: line-through;
+}
+/* FOOTER */
+
+.page-footer {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.section-footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.subsection-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.category-informations {
+    display: flex;
+}
+
+.page-footer .row-footer {
+    height: 80px;
+}
+
+.informations {
+    line-height: 20px;
+    padding: 0px 10px;
 }
